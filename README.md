@@ -50,9 +50,9 @@ My Command Line Shell is: Powershell
 1. Full / absolute path to your user's home directory:C:\Users\rishi>
 2. Create a directory named `DirA`: MKDIR A
 3. Create a directory named `Dir B`:MKDIR B
-4. Go into `DirA`:
-5. Go into `Dir B` from `DirA`:
-6. Return to your user's home directory:
+4. Go into `DirA`: cd DirA
+5. Go into `Dir B` from `DirA`: cd "..\Dir B"
+6. Return to your user's home directory: cd "C:\Users\rishi"
 7. Create a file named `test.txt`:
 8. Move the file named `test.txt` into `DirA`:
 9. Contents of `test.txt`:
