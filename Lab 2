@@ -3,7 +3,7 @@
 - Name:Rishiv Tadiparthi
 - Email:tadiparthi.7@wright.edu
 
-## Part 1 Answersw
+## Part 1 Answers
 
 Full / absolute path to your private key file: C:\Users\rishi\Downloads\aws-keys\awskey.pem
 
@@ -17,10 +17,10 @@ Command to SSH to AWS instance:
 
 1. `chmod u+r bubbles.txt`
     - Means: For bubbles.txt it allows the user(u) to read(r).
-    - Assessment: You should use the command because it keeps your data safe and only allows the user to read the file. This helps to maintain security,by ensuring that only the user can see what is in the bubbles.txt ile. The command changes the file's mode by adding read access for the owner without affecting others. If other users don't have write access, then this prevents them from getting it and prevents them from changing your data.
+    - Assessment: You should use the command because it keeps your data safe and only allows the user to read the file. This helps to maintain security, by ensuring that only the user can see what is in the bubbles.txt file. The command changes the file's mode by adding read access for the owner without affecting others. If other users don't have write access, then this prevents them from getting it and prevents them from changing your data.
 2. `chmod u=rw,g-w,o-x banana.cabana`
-    - Means: For banana.cabana it allows the user to user to read and write,it removes the write permission from the group,it removes the execute permission for others.
-    - Assessment: Even though this command allows the user to read and write, this is not the best command to use because no one can just write anything into the file seperataly and no one,other than the user, is able to execute the banana.cabana command.
+    - Means: For banana.cabana it allows the user to user to read and write, it removes the write permission from the group, it removes the execute permission for others.
+    - Assessment: Even though this command allows the user to read and write, this is not the best command to use because no one can just write anything into the file separately and no one, other than the user,is able to execute the banana.cabana command.
 3. `chmod a=w snow.md`
     - Means: 
     - Assessment:
